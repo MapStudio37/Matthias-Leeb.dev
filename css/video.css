@@ -81,12 +81,17 @@
   row-gap: 10px;
   
 }
-@media (max-width: 775px) {
+@media (max-width: 850px) {
   .video-grid{
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (min-width: 776px) and (max-width:1299px){
+@media (max-width: 720px) {
+  .video-grid{
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 850.1px) and (max-width:1299px){
   .video-grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
