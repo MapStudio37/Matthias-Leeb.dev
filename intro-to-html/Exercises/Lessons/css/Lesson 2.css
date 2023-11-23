@@ -1,0 +1,100 @@
+.Uber {
+  border: none;
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 111px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.Amazon{
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  height: 30px;
+  width: 153px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.Amazon-buynow{
+  background-color: rgb(255, 164, 28);
+  color: black;
+  border: none;
+  height: 30px;
+  width: 153px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.Github{
+  background: rgb(46,164,79);
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 36px;
+  width: 80px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 15px;
+}
+.Bootstrap-Get_Started{
+  background-color: rgb(121,82,179);
+  border:none;
+  color: white;
+  height: 36px;
+  width: 105px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.Bootstrap-Download{
+  background-color: white;
+  color: rgb(108,117,125);
+  border-color: rgb(108,117,125);
+  height: 36px;
+  width: 105px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.LinkedIn-Apply_on_company_website{
+  background-color: rgb(10,102,194);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 210px;
+  font-weight: bold;
+  border-radius: 36px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.LinkedIn-Save{
+  background-color: white;
+  color: rgb(10,102,194);
+  border-width: 1px;
+  border-color: rgb(10,102,194);
+  border-style: solid;
+  height: 36px;
+  width: 70px;
+  border-radius: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.Nike-text{
+  font-size: 20px;
+  font-weight: bold;
+}
+.in_stock-text{
+  color: green;
+  font-weight: bold;
+}
