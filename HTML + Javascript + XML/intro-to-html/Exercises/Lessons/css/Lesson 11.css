@@ -1,0 +1,66 @@
+.pet-grid{
+  display: grid;
+  grid-template-columns: 133px 133px 133px;
+  column-gap: 15px;
+}
+.Cat-square{
+  width: 133px;
+  height: 133px;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+.Oliver{
+  box-shadow: 5px 0px 10px rgba(0,0,0,0.15);
+  width: 133px;
+  margin-bottom: 0px;
+}
+.Mimi{
+  box-shadow: 5px 0px 10px rgba(0,0,0,0.15);
+  width: 133px;
+  margin-bottom: 0px;
+}
+.Rex{
+  box-shadow: 5px 0px 10px rgba(0,0,0,0.15);
+  width: 133px;
+  margin-bottom: 0px;
+}
+.Name{
+  margin-top: 5px;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.Friends{
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: Arial;
+  color: rgb(96,96,96);
+  margin-bottom: 8px;
+}
+.AddFriend{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0;
+  background-color: rgb(0, 89, 255);
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: padding-left 250ms,
+    padding-bottom 250ms,
+      padding-right 250ms,
+        padding-top 250ms;
+}
+.AddFriend:hover{
+  padding-left: 5px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-right: 5px;
+}
+.AddFriend:active{
+  opacity: 0.75;
+}
