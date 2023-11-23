@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 11 - CSS Grid</title>
+    <link rel="stylesheet" href="css/Lesson 11.css">
+  </head>
+  <body>
+    <div style="
+      display: grid;
+      grid-template-columns: 200px 75px;
+      margin-bottom: 30px;
+      ">
+      <div style="background-color: lightblue; height: 25px;">250px</div>
+      <div style="background-color: lightpink; height: 25px;">75px</div>
+    </div>
+    <div style="
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+      margin-bottom: 30px;
+      ">
+      <div style="background-color: lightblue; height: 25px;">col1</div>
+      <div style="background-color: lightpink; height: 25px;">col2</div>
+      <div style="background-color: lightblue; height: 25px;">col3</div>
+    </div>
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 10px;
+      margin-bottom: 30px;
+      ">
+      <div style="background-color: lightblue; height: 25px;">col1</div>
+      <div style="background-color: lightpink; height: 25px;">col2</div>
+      <div style="background-color: lightblue; height: 25px;">col3</div>
+      <div style="background-color: lightpink; height: 25px;">col2</div>
+      <div style="background-color: lightblue; height: 25px;">col3</div>
+      <div style="background-color: lightpink; height: 25px;">col2</div>
+      <div style="background-color: lightblue; height: 25px;">col3</div>
+      <div style="background-color: lightpink; height: 25px;">col2</div>
+    </div>
+    <div class="pet-grid">
+      <div class="Oliver">
+        <img src="../../../pictures/nythuxa7iki.jpg" alt="Cat" class="Cat-square">
+        <p class="Name">Oliver</p>
+        <p class="Friends">2 mutual friends</p>
+        <button class="AddFriend">Add Friend</button>
+      </div>
+      <div class="Mimi">
+        <img src="../../../pictures/Cat02.jpg" alt="Cat" class="Cat-square">
+        <p class="Name">Mimi</p>
+        <p class="Friends">3 mutual friends</p>
+        <button class="AddFriend">Add Friend</button>
+      </div>
+      <div class="Rex">
+        <img src="../../../pictures/dog.jfif" alt="Dog" class="Cat-square">
+        <p class="Name">Rex</p>
+        <p class="Friends">4 mutual friends</p>
+        <button class="AddFriend">Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>
