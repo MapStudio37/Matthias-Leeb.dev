@@ -81,23 +81,27 @@
   row-gap: 10px;
   
 }
-@media (min-width: 1000px) {
+@media (max-width: 850px) {
   .video-grid{
     grid-template-columns: 1fr 1fr;
   }
 }
-
-@media (min-width: 1200px) and (max-width:1499px){
+@media (max-width: 720px) {
+  .video-grid{
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 850.1px) and (max-width:1299px){
   .video-grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
   .video-grid{
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
   .video-title{
     font-size: 16px;
   }
